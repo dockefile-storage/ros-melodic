@@ -2,9 +2,6 @@
 
 set -e  # 有错误就退出
 tee ${HOME}/.bash_aliases <<-'EOF'
-##################################
-#  CUDA
-##################################
 source /opt/ros/melodic/setup.bash
 EOF
 source /opt/ros/melodic/setup.bash
