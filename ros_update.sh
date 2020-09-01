@@ -1,6 +1,6 @@
 #!/usr/bin/env bash
 
-set -e  # 有错误就退出
+#set -e  # 有错误就退出
 tee ${HOME}/.bash_aliases <<-'EOF'
 source /opt/ros/melodic/setup.bash
 EOF
