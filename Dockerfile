@@ -21,6 +21,7 @@ RUN apt-get install -y  \
 	python3-dev \
         python3-pip \
 	make \
+	vim \
         g++ \
         git \ 
         aptitude \
@@ -48,7 +49,6 @@ RUN apt-get install -y python3-pip python3-colcon-common-extensions python3-setu
 RUN ./ros_update.sh
 
 #apt-get install libarmadillo-dev libglew-dev libssh2-1-dev python-flask python-requests wget --yes --allow-unauthenticated
-RUN apt-get install vim --yes --allow-unauthenticated
 
 
 #VOLUME ["/data1","/data2"]
